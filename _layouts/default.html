@@ -5,15 +5,23 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/main.css">
     {% seo %}
 </head>
 
 <body>
-    <div>
+    <div id="header">
         <h1>{{ site.title }}</h1>
         <h2>{{ site.description }}</h2>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+    </div>
+
+    <div id="content">
+        {{ content }}
+    </div>
+
+    <div id="license">
+        <a id="imagelink" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
         </a>
         <br />
         This work is licensed under a
@@ -22,8 +30,8 @@
         </a>.
     </div>
 
-    <div class="container">
-        {{ content }}
+    <div id="navbar">
+        Sidebar Right
     </div>
 </body>
 
