@@ -1,16 +1,4 @@
 ---
-layout: default
+layout: post
 ---
-<h1>{{ page.title }}</h1>
-
-<div>
-  {{ site.posts | first }}
-</div>
-
-<ul class="posts">
-  <div style="background: #fc0">
-  {% for post in site.posts %}
-	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </div>
-</ul>
+{{ site.posts | first }}

@@ -1,2 +1,6 @@
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+
+title: Title-Todo
+description: A Description
