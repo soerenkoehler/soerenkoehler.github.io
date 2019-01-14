@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% include test.md %}
+
 This is a personal, non-commercial blog. You may use the following contact information for talking with me about my Github-Projects or postings published here. You **MUST NOT** contact me for commercial or illegal purposes - including but not limited to:
 - sending SPAM
 - advertising
