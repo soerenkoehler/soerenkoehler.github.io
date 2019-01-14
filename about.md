@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% include_relative README-en.md %}
+{% include_relative README.md %}
 
-{% include_relative LICENSE-en.md %}
+{% include_relative LICENSE.md %}
 
 ----
 {% include_relative README-de.md %}
