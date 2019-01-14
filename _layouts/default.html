@@ -1,8 +1,13 @@
+---
+banner: banner.txt
+---
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang='{{ site.lang | default: "en-US" }}'>
 
 <head>
     <meta charset='utf-8'>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="expires" content="-1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/main.css">
@@ -11,26 +16,33 @@
 
 <body>
     <div id="header">
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.description }}</h2>
+        {% capture banner %}{% include banner.md %}{% endcapture %}{{ banner | markdownify }}
+        <!-- <h1>{{ site.title }}</h1>
+        <h2>{{ site.description }}</h2> -->
     </div>
 
     <div id="content">
         {{ content }}
     </div>
 
-    <div id="license">
-        <a id="imagelink" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-            <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-        </a>
-        This work is licensed under a
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-            Creative Commons Attribution-ShareAlike 4.0 International License
-        </a>.
-    </div>
+    <div id="sidebar">
+        <div id="license">
+            <a id="imagelink" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a>
+            This work is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                Creative Commons Attribution-ShareAlike 4.0 International License
+            </a>.
+        </div>
 
-    <div id="navbar">
-        Sidebar Right
+        <div id="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="wetter-karlsruhe.html">Wetter Karlsruhe</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 
