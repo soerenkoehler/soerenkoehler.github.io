@@ -1,0 +1,109 @@
+---
+---
+$background: #151515;
+$color-text: #d0d0d0;
+$color-accent: #b5e853;
+$color-highlight: #ffffff;
+$license-background: #a0a0a0;
+$license-border: #c0c0c0;
+$license-text: #000000;
+
+@media (min-width: 1100px) {
+    body {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: minmax(50%, auto) minmax(100px, 300px);
+    }
+}
+@media (max-width: 1099px) {
+    body {
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: auto;
+    }
+}
+
+body {
+    color: $color-text;
+    background: $background;
+    display: grid;
+    gap: 1em;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a, a:active, a:visited {
+    color: $color-accent;
+}
+
+a:hover {
+    color: $color-highlight;
+}
+
+hr {
+    background: $color-accent;
+    height: 1px;
+    border: none;
+}
+
+.header {
+    color: $color-accent;
+    grid-column: 1 / -1;
+}
+
+@media (min-width: 1100px) {
+    #header-h {
+        margin: 0 auto;
+    }
+    #header-v {
+        display: none;
+    }
+}
+@media (max-width: 1099px) {
+    #header-h {
+        display: none;
+    }
+    #header-v {
+        margin: 0 1em;
+    }
+}
+
+#content {
+    grid-row: 2;
+    border-top: 1px solid $color-accent;
+    border-bottom: 1px solid $color-accent;
+}
+
+#license {
+    border: 1px solid $license-border;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 0.75em;
+    color: $license-text;
+    background: $license-background;
+}
+
+#license a, #license a:active, #license a:visited {
+    color: $license-text;
+    text-decoration: none;
+}
+
+#license a:hover {
+    color: $color-highlight;
+    text-decoration: none;
+}
+
+#license img {
+    float: left;
+    border: none;
+    padding: 0 0.5em 0 0;
+    margin: 0;
+}
+
+#navbar ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+#navbar li {
+    list-style: none outside;
+}
