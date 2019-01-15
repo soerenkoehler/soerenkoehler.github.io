@@ -15,11 +15,8 @@ banner: banner.txt
 </head>
 
 <body>
-    <div class="header" id="header-h">
-        {% capture banner-h %}{% include banner-h.md %}{% endcapture %}{{ banner-h | markdownify }}
-    </div>
-    <div class="header" id="header-v">
-        {% capture banner-v %}{% include banner-v.md %}{% endcapture %}{{ banner-v | markdownify }}
+    <div id="header">
+        <img src="/assets/img/banner.png" />
     </div>
 
     <div id="content">

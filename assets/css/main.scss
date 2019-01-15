@@ -45,26 +45,13 @@ hr {
     border: none;
 }
 
-.header {
-    color: $color-accent;
+#header {
     grid-column: 1 / -1;
 }
 
-@media (min-width: 1100px) {
-    #header-h {
-        margin: 0 auto;
-    }
-    #header-v {
-        display: none;
-    }
-}
-@media (max-width: 1099px) {
-    #header-h {
-        display: none;
-    }
-    #header-v {
-        margin: 0 1em;
-    }
+#header img {
+    width: 100%;
+    max-width: 1200px;
 }
 
 #content {
