@@ -28,9 +28,16 @@ banner: banner.txt
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about.html">About & Legal</a></li>
-                <li><a href="/wetter-karlsruhe.html" target="_blank">Wetter Karlsruhe</a></li>
-                <li><a href="/taglist.html">Tags</a></li>
+                <li><a href="/wetter-karlsruhe.html" target="_blank">Weather Karlsruhe</a></li>
             </ul>
+        </div>
+
+        <div>
+            Tags<br />
+            {% assign sorted_tags = site.tags | sort %}
+            {% for tag in sorted_tags %}
+                    <a href="/taglist.html#{{ tag[0] }}">{{ tag[0] | capitalize }}</a>
+            {% endfor %}
         </div>
 
         <div id="license">

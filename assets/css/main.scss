@@ -33,6 +33,7 @@ body {
 
 a, a:active, a:visited {
     color: $color-accent;
+    text-decoration: none;
 }
 
 a:hover {
@@ -43,10 +44,6 @@ hr {
     background: $color-accent;
     height: 1px;
     border: none;
-}
-
-.clear {
-    clear: both;
 }
 
 #header {
@@ -64,6 +61,34 @@ hr {
     border-bottom: 1px solid $color-accent;
 }
 
+#sidebar > div {
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li {
+    list-style: none outside;
+}
+
+#post-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#post-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#taglist #post {
+    display: flex;
+    justify-content: space-between;
+}
+
 #license {
     border: 1px solid $license-border;
     border-radius: 0.5em;
@@ -75,12 +100,10 @@ hr {
 
 #license a, #license a:active, #license a:visited {
     color: $license-text;
-    text-decoration: none;
 }
 
 #license a:hover {
     color: $color-highlight;
-    text-decoration: none;
 }
 
 #license img {
@@ -88,13 +111,4 @@ hr {
     border: none;
     padding: 0 0.5em 0 0;
     margin: 0;
-}
-
-#navbar ul {
-    padding: 0;
-    margin-top: 0;
-}
-
-#navbar li {
-    list-style: none outside;
 }
