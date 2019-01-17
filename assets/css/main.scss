@@ -4,31 +4,15 @@ $background: #151515;
 $color-text: #d0d0d0;
 $color-accent: #b5e853;
 $color-highlight: #ffffff;
+$color-tagcloud: #000000;
 $license-background: #a0a0a0;
 $license-border: #c0c0c0;
 $license-text: #000000;
 
-@media (min-width: 1100px) {
-    body {
-        grid-template-rows: repeat(2, auto);
-        grid-template-columns: minmax(50%, auto) minmax(100px, 300px);
-    }
-}
-@media (max-width: 1099px) {
-    body {
-        grid-template-rows: repeat(4, auto);
-        grid-template-columns: auto;
-    }
-}
-
 body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: $color-text;
-    background: $background;
-    display: grid;
-    gap: 1em;
-    align-items: flex-start;
-    max-width: 1100px;
-    margin: 0 auto;
+    background: $background url("/assets/img/background.png");
 }
 
 a, a:active, a:visited {
@@ -44,6 +28,27 @@ hr {
     background: $color-accent;
     height: 1px;
     border: none;
+}
+
+#main {
+    display: grid;
+    gap: 1em;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1100px) {
+    #main {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: minmax(50%, auto) minmax(100px, 300px);
+    }
+}
+@media (max-width: 1099px) {
+    #main {
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: auto;
+    }
 }
 
 #header {
@@ -74,21 +79,17 @@ hr {
     list-style: none outside;
 }
 
-#post-title {
-    font-size: 1.5em;
-    font-weight: bold;
+#tagcloud a, #tagcloud a:active, #tagcloud a:visited {
+    font-size: 0.8em;
+    padding: 1px 3px;
+    margin: 1px 0px;
+    background: $color-accent;
+    color: $color-tagcloud;
 }
 
-#post-info {
-    display: flex;
-    justify-content: space-between;
+#tagcloud a:hover {
+    color: $color-tagcloud;
 }
-
-#taglist #post {
-    display: flex;
-    justify-content: space-between;
-}
-
 #license {
     border: 1px solid $license-border;
     border-radius: 0.5em;
@@ -111,4 +112,56 @@ hr {
     border: none;
     padding: 0 0.5em 0 0;
     margin: 0;
+}
+
+#taglist {
+    margin-bottom: 1em;
+}
+
+#taglist #post {
+    display: flex;
+    justify-content: space-between;
+}
+
+#post-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-accent;
+}
+
+#post-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#post-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#post-content h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 1em 0 0.5em 0;
+}
+
+#post-content h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 1em 0 0.5em 0;
+}
+
+#post-content h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 1em 0 0.5em 0;
+}
+
+#post-content h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1em 0 0.5em 0;
 }

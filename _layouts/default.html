@@ -15,6 +15,7 @@ banner: banner.txt
 </head>
 
 <body>
+<div id="main">
     <div id="header">
         <img src="/assets/img/banner.png" />
     </div>
@@ -32,11 +33,10 @@ banner: banner.txt
             </ul>
         </div>
 
-        <div>
-            Tags<br />
+        <div id="tagcloud">
             {% assign sorted_tags = site.tags | sort %}
             {% for tag in sorted_tags %}
-                    <a href="/taglist.html#{{ tag[0] }}">{{ tag[0] | capitalize }}</a>
+                    <a href="/taglist.html#{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1] | size }})</a>
             {% endfor %}
         </div>
 
@@ -50,6 +50,7 @@ banner: banner.txt
             </a>.
         </div>
     </div>
+</div>
 </body>
 
 </html>
