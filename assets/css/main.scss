@@ -32,7 +32,6 @@ hr {
 
 #main {
     display: grid;
-    gap: 1em;
     align-items: flex-start;
     max-width: 1100px;
     margin: 0 auto;
@@ -53,6 +52,7 @@ hr {
 
 #header {
     grid-column: 1 / -1;
+    padding-bottom: 1em;
 }
 
 #header img {
@@ -64,6 +64,10 @@ hr {
     grid-row: 2;
     border-top: 1px solid $color-accent;
     border-bottom: 1px solid $color-accent;
+}
+
+#sidebar {
+    padding: 0 0.5em;
 }
 
 #sidebar > div {
