@@ -2,5 +2,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-title: Title-Todo
-description: A Description
+title: Code, the Universe and Everything
+description: A blog about code, the universe and everything.
+author: Sören Köhler
