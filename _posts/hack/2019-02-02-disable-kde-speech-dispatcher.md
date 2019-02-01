@@ -5,7 +5,7 @@ tags: [english, hack, kde]
 ---
 Some updates ago the KDE Audio Mixer began to behave strangely. Or better:
 It did show the strange behaviour of something called "speech dispatcher":
-A increasing number of audio sources showed up in the mixer panel. Annoying.
+An increasing number of audio sources showed up in the mixer panel. Annoying.
 
 When I tried to uninstall it, I saw that half of KDE was dependant from it.
 So I started the most secret hacker tool ever: Google (or in my case actually:
