@@ -24,7 +24,7 @@ layout: default
         {% for post in tag[1] %}
         <div id="post">
             <div><a href="{{ post.url }}">{{ post.title }}</a></div>
-            <div>{{ post.date | date: "%Y-%m-%-d" }}</div>
+            <div>{{ post.date | date: "%Y-%m-%d" }}</div>
         </div>
         {% endfor %}
     </div>

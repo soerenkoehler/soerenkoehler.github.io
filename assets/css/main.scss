@@ -1,6 +1,8 @@
 ---
 ---
 $background: #151515;
+$background-quote-level1: #303030;
+$background-quote-level2: #454545;
 $color-text: #d0d0d0;
 $color-accent: #b5e853;
 $color-highlight: #ffffff;
@@ -28,6 +30,21 @@ hr {
     background: $color-accent;
     height: 1px;
     border: none;
+}
+
+div.highlighter-rouge, blockquote {
+    margin: 0 0;
+    padding: 0.5em;
+    background: $background-quote-level1;
+}
+
+blockquote blockquote {
+    background: $background-quote-level2;
+}
+
+blockquote p {
+    margin: 0;
+    padding: 0.25em 0;
 }
 
 #main {
