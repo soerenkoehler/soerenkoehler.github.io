@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goodbye Chrome?
-tags: [english, blog, internet, privacy]
+tags: [english, blog, internet, privacy, firefox]
 ---
 About ten years ago I might have written a rant like this:
 

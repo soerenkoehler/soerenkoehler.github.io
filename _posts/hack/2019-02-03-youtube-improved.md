@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make Youtube Usable Again
-tags: [english, hack, youtube]
+tags: [english, hack, youtube, firefox]
 ---
 For me, the greatest problem with Youtube is, that it wants to increase playing
 time. In this respect it is natural to autoplay lists and to have those pesky

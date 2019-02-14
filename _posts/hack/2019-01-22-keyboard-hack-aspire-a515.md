@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keyboard Hack for the Aspire 5
-tags: [english, hack]
+tags: [english, hack, aspire]
 ---
 On the current Aspire 5 15"-series (A515-52) Acer managed to fit a full number
 pad into the keyboard. What I realized only after I bought it: The keys
