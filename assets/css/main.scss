@@ -14,7 +14,7 @@ $license-text: #000000;
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: $color-text;
-    background: $background url("/assets/img/background.png");
+    background: $background url("/assets/img/background.png") fixed;
 }
 
 a, a:active, a:visited {
@@ -112,6 +112,10 @@ blockquote p {
     color: $color-tagcloud;
 }
 #license {
+    display: grid;
+    align-items: flex-start;
+    grid-template-rows: auto;
+    grid-template-columns: minmax(auto, 94px) auto;
     border: 1px solid $license-border;
     border-radius: 0.5em;
     padding: 0.5em;
