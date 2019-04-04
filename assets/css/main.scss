@@ -70,11 +70,11 @@ blockquote p {
 #header {
     grid-column: 1 / -1;
     padding-bottom: 1em;
-}
 
-#header img {
-    width: 100%;
-    max-width: 1200px;
+    img {
+        width: 100%;
+        max-width: 1200px;
+    }
 }
 
 #content {
@@ -91,26 +91,31 @@ blockquote p {
     margin-bottom: 1em;
 }
 
-#navbar ul {
-    padding: 0;
-    margin: 0;
+#navbar {
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style: none outside;
+    }
 }
 
-#navbar li {
-    list-style: none outside;
+#tagcloud {
+    a, a:active, a:visited {
+        font-size: 0.8em;
+        padding: 1px 3px;
+        margin: 1px 0px;
+        background: $color-accent;
+        color: $color-tagcloud;
+    }
+
+    a:hover {
+        color: $color-tagcloud;
+    }
 }
 
-#tagcloud a, #tagcloud a:active, #tagcloud a:visited {
-    font-size: 0.8em;
-    padding: 1px 3px;
-    margin: 1px 0px;
-    background: $color-accent;
-    color: $color-tagcloud;
-}
-
-#tagcloud a:hover {
-    color: $color-tagcloud;
-}
 #license {
     display: grid;
     align-items: flex-start;
@@ -122,30 +127,30 @@ blockquote p {
     font-size: 0.75em;
     color: $license-text;
     background: $license-background;
-}
 
-#license a, #license a:active, #license a:visited {
-    color: $license-text;
-}
+    a, a:active, a:visited {
+        color: $license-text;
+    }
 
-#license a:hover {
-    color: $color-highlight;
-}
+    a:hover {
+        color: $color-highlight;
+    }
 
-#license img {
-    float: left;
-    border: none;
-    padding: 0 0.5em 0 0;
-    margin: 0;
+    img {
+        float: left;
+        border: none;
+        padding: 0 0.5em 0 0;
+        margin: 0;
+    }
 }
 
 #taglist {
     margin-bottom: 1em;
-}
 
-#taglist #post {
-    display: flex;
-    justify-content: space-between;
+    #post {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 #post-nav {
@@ -159,6 +164,15 @@ blockquote p {
     padding-top: 0.5em;
     font-size: 1.5em;
     font-weight: bold;
+
+    a, a:active, a:visited {
+        color: $color-highlight;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $color-accent;
+    }
 }
 
 #post-info {
@@ -166,29 +180,31 @@ blockquote p {
     justify-content: space-between;
 }
 
-#post-content h1 {
-    font-size: 1.5em;
-    font-weight: normal;
-    text-decoration: underline;
-    margin: 1em 0 0.5em 0;
-}
+#post-content {
+    h1 {
+        font-size: 1.5em;
+        font-weight: normal;
+        text-decoration: underline;
+        margin: 1em 0 0.5em 0;
+    }
 
-#post-content h2 {
-    font-size: 1.2em;
-    font-weight: normal;
-    text-decoration: underline;
-    margin: 1em 0 0.5em 0;
-}
+    h2 {
+        font-size: 1.2em;
+        font-weight: normal;
+        text-decoration: underline;
+        margin: 1em 0 0.5em 0;
+    }
 
-#post-content h3 {
-    font-size: 1.2em;
-    font-weight: normal;
-    margin: 1em 0 0.5em 0;
-}
+    h3 {
+        font-size: 1.2em;
+        font-weight: normal;
+        margin: 1em 0 0.5em 0;
+    }
 
-#post-content h4 {
-    font-size: 1.1em;
-    font-weight: bold;
-    font-style: italic;
-    margin: 1em 0 0.5em 0;
+    h4 {
+        font-size: 1.1em;
+        font-weight: bold;
+        font-style: italic;
+        margin: 1em 0 0.5em 0;
+    }
 }

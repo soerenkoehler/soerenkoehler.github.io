@@ -5,7 +5,9 @@ layout: default
     <div>{% if page.previous %}<a href="{{ page.previous.url }}">&LeftArrow;{{ page.previous.title }}{% else %}&nbsp{% endif %}</a></div>
     <div>{% if page.next %}<a href="{{ page.next.url }}">{{ page.next.title }}&RightArrow;{% else %}&nbsp{% endif %}</a></div>
 </div>
-<div id="post-title">{{ page.title }}</div>
+<div id="post-title">
+    <a href="{{ page.url }}">{{ page.title }}</a>
+</div>
 <div id="post-info">
     <div id="post-date">{{ page.date | date: "%Y-%m-%d" }}</div>
     <div id="post-tags">

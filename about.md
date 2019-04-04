@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-![Me](/assets/img/me.png) My name is Sören Köhler. This blog shall in the first place be a landing page to my humble coding projects. Further I'll occasionally write down some thoughts (or rants) about life, the universe and everything else. Maybe someone will find something of this useful.
+![Me](/assets/img/me.png) My name is Sören Köhler. This blog shall in the first
+place be a landing page to my humble coding projects. Further I'll occasionally
+write down some thoughts (or rants) about life, the universe and everything
+else. Maybe someone will find something of this useful.
 
 ----
 # ![English](/assets/img/flag-en.png) Legal Notice
@@ -18,4 +21,5 @@ layout: default
 # ![Contact](/assets/img/letter.png) Contact
 Email: [webmaster@soerenkoehler.de](mailto:webmaster@soerenkoehler.de)  
 Threema: [WJJBHK3U](threema://add?id=WJJBHK3U)  
+Mastodon: <a rel="me" target="_blank" href="https://mastodon.social/@soerenkoehler">@soerenkoehler@mastodon.social</a>  
 PGP-Key: [5620 3CCF 3406 522A 57A5  3A3D F1EE 4733 52C8 72D5](pgp-key.html)
