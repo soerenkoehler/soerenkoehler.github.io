@@ -19,7 +19,7 @@ layout: default
 <div id="taglist">
     {% assign sorted_tags = site.tags | sort %}
     {% for tag in sorted_tags %}
-    <div class="tag" id="{{ tag[0] }}">
+    <div class="tag" id="{{ tag[0] | replace: ' ', '-' }}">
         <h3>{{ tag[0] | capitalize }}</h3>
         {% for post in tag[1] %}
         <div id="post">

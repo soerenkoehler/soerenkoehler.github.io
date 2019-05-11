@@ -37,7 +37,7 @@ banner: banner.txt
         <div id="tagcloud">
             {% assign sorted_tags = site.tags | sort %}
             {% for tag in sorted_tags %}
-                    <a href="/taglist.html#{{ tag[0] }}">{{ tag[0] | capitalize }}&nbsp;({{ tag[1] | size }})</a>
+                    <a href="/taglist.html#{{ tag[0] | replace: ' ', '-' }}">{{ tag[0] | capitalize }}&nbsp;({{ tag[1] | size }})</a>
             {% endfor %}
         </div>
 

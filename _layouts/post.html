@@ -13,7 +13,7 @@ layout: default
     <div id="post-tags">
         Tags:
         {% for tag in page.tags %}
-        <a href="/taglist.html#{{ tag }}">{{ tag | capitalize }}</a>
+        <a href="/taglist.html#{{ tag | replace: ' ', '-' }}">{{ tag | capitalize }}</a>
         {% endfor %}
     </div>
 </div>
