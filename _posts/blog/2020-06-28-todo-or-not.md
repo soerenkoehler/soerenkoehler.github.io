@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Todo or not or calendar?
+title: Todo or not or Calendar?
 tags: [english, blog, google, internet, productivity]
 ---
 Every once in a while I wonder, if there's something better than Google Calendar

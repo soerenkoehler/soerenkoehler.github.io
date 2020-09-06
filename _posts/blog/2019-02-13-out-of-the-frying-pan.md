@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Out of The Frying Pan into the Fire(fox)
+title: Out of the Frying Pan Into the Fire(fox)
 tags: [english, blog, internet, privacy, firefox]
 ---
 ...or: Is there a life after Chrome?

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disable KDE speech dispatcher
+title: Disable KDE Speech Dispatcher
 tags: [english, hack, kde]
 ---
 Some updates ago the KDE Audio Mixer began to behave strangely. Or better:

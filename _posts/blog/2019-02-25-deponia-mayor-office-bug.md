@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deponia: To bug or not a bug?"
+title: "Deponia: To Bug or not a Bug?"
 tags: [english, blog, games, daedalic]
 ---
 When I discovered, that there's a 4th part (although already three years old,
