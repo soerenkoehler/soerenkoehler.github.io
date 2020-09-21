@@ -209,10 +209,10 @@ blockquote p {
     }
 
     table {
-        thead tr td{
-            border-bottom: 1px solid white;
-        }
-        tbody tr td{
+        // thead tr {
+        //     border-bottom: 1px solid white;
+        // }
+        tbody tr {
             border-top: 1px solid gray;
         }
         td {
