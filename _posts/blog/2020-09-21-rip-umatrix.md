@@ -13,8 +13,9 @@ Immediately outcries and conspiracy theories arose in the forum:
     we are not. If you insist in it, just get your ass the fuck up, fork the
     project and do it yourself.)
 *   Google/NSA/Freemasons/Reptiloids threatened to kill his cat to get him stop
-    developing such software threatening the advertisers' secret world
-    government. (Answer: This is rubbish, if T.H.E.Y. wan't to stop Ad Blockers, [they simply change APIs](2019/06/02/another-nail-in-the-coffin.md).)
+    developing such software overthrowing the advertisers' secret world
+    government. (Answer: This is rubbish, if T.H.E.Y. wan't to stop Ad Blockers,
+    [they simply change APIs](2019/06/02/another-nail-in-the-coffin.md).)
 
 In my opinion, Raymond "Gorhill" Hill's reason to stop the project is much more
 mundane: available time. Gorhill is the developer of two addons:
