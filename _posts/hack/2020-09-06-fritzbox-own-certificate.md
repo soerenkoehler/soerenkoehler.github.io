@@ -7,7 +7,7 @@ tags: [english, hack, fritzbox, synology, security]
 
 As a Fritzbox owner you may know, that when you access the box via https, it
 presents a self signed SSL certificate which gets flagged a security issue in
-most modern browsers. As I was not happy creating exception rules. Further, the
+most modern browsers. I was not happy creating exception rules. Further, the
 Fritzbox seemed to randomly switch between CNs and Firefox wouldn't import both.
 
 ### The Long Way Around
@@ -17,7 +17,7 @@ signed server certificate using OpenSSL. I was not in the mood for this.
 
 ### The Shorter Way - With Obstacles
 
-Then I remember, that I already had a CA set up - The one signing the
+Then I remembered, that I already had a CA set up - the one signing the
 certificate for my Synology NAS. And may memory said, it was fully created in
 the NAS Dashboard. Could I create a certificate for my Fritzbox using the NAS?
 
