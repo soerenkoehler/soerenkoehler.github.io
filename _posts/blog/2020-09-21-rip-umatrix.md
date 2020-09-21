@@ -48,6 +48,7 @@ Additional considerations:
 *   The mobile version of FF 80 has only a handful of compatible addons, among
     them is µBlock but not µMatrix.
 *   Last releases
+
     |         | pre-release | stable      |
     |---------|-------------|-------------|
     | µMatrix | 24 Feb 2020 | 05 Sep 2019 |
@@ -56,23 +57,3 @@ Additional considerations:
 Further development of µMatrix would divert about fifty percent of Gorhills
 capacity to satisfy one percent of the userbase. Any serious manager in such a
 situation would happily shut down the minor product.
-
-
-
-
-----
-[](
-){:target="_blank"}
-
-Even if the API change will be not as harsh as it sounds at the moment, the
-announcement lets me reconsider my browser strategy. Since all the essential
-extensions
-([µBlock](
-    https://github.com/gorhill/uBlock
-){:target="_blank"},
-[µMatrix](
-    https://github.com/gorhill/uMatrix
-){:target="_blank"},
-[Tampermonkey](https://tampermonkey.net/){:target="_blank"})
-are available for Firefox too, the switch would not hurt much.
-
