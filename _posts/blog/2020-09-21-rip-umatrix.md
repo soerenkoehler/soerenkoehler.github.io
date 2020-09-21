@@ -23,7 +23,7 @@ mundane: available time. Gorhill is the developer of two addons:
     https://github.com/gorhill/uMatrix
 ){:target="_blank"} 
 and
-([µBlock](
+[µBlock](
     https://github.com/gorhill/uBlock
 ){:target="_blank"}.
 
