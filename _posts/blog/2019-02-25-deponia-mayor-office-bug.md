@@ -23,10 +23,10 @@ the game-code, but I will give a...
 
 When I frustrated began to click wildly, assuming somehow differing areas for
 triggering the arrow and the actual transition or some intersection with the
-Wenzel-sprite in front, suddenly Rufus entered the office. But without tranition
-animation. I left the mayors office and rechecked:
-- single click = no transition,
-- double click = transition into new room.
+Wenzel-sprite in front, suddenly Rufus entered the office. But without
+transition animation. I left the mayors office and rechecked:
+* single click = no transition,
+* double click = transition into new room.
 
 ### Collateral discovery
 
