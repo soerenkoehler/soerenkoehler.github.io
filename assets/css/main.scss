@@ -17,6 +17,10 @@ body {
     background: $background url("/assets/img/background.png") fixed;
 }
 
+code {
+    font-family: 'Cascadia Code', 'Lucida Console', 'Dejavu Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback';
+}
+
 a, a:active, a:visited {
     color: $color-accent;
     text-decoration: none;
