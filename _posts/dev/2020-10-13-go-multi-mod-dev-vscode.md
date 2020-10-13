@@ -3,23 +3,12 @@ layout: post
 title: Local Multi Module Development in VSCode and Go
 tags: [english, dev, vscode, golang]
 ---
-Situation
----------
-
 Recently I was developing two Go modules in parallel: Module A had module B as a
-dependency.
-
-Challenge 1
------------
-
-Since module B was still in local development, I did neither want to
+dependency. Since module B was still in local development, I did neither want to
 push every local change nor even commit it locally.
 
-Solution 1
-----------
-
-This can easily be googled/binged/duckduckgoed/...: Just use the `replace`
-directive to point module B to a local path.
+The solution to this can easily be googled/binged/duckduckgoed/...: Just use the
+`replace` directive to point module B to a local path.
 
 ```
 module a
@@ -31,21 +20,18 @@ replace module-b => local-path-to-b
 
 With this, the Go tools should use the current version of your local copy of B.
 
-Challenge 2
------------
+But there was some unexpected challenge: Working in module A seemed to use
+always some cached version of module B...
 
-I had opened two separate VSCode windows for the two modules. After applying
-solution 1 module A seemed to use always some cached version of module B.
+After some trial and error, I nailed it down to:
 
-Solution 2
-----------
+* having open two workspaces in two separate VSCode windows
+* reloading workspace A updates the dependency B
 
-After some trial and error, I nailed it down to "reloading workspace A updates
-the dependency B". Which is quite inconvinient... The reload can be avoided, if
-both modules reside in the same workspace.
+So, the solution is: Have both modules in the same workspace. VSCode will then
+happily detect chenged dependency sources.
 
-Summary
--------
+### Summary
 
 Two develop a dependency locally:
 * Use a temporary local `go.mod` file with a `replace` directive pointing to
