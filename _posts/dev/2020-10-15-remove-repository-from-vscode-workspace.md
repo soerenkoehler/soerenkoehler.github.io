@@ -4,9 +4,8 @@ title: Remove a Repository From a VSCode Multi-Root Workspace
 tags: [english, dev, vscode]
 ---
 Removing a folder from a multi-root workspace does not remove the associated git
-repo from SCM view. I've reported this already as:
-
-https://github.com/microsoft/vscode/issues/108757
+repo from SCM view. I've reported this already as an [issue in the VSCode
+project][issue]:
 
     Steps to Reproduce:
 
@@ -31,3 +30,5 @@ https://github.com/microsoft/vscode/issues/108757
 
 As a workaround you can search and delete the workspace settings under
 `C:\Users\<username>\AppData\Roaming\Code\User\workspaceStorage`.
+
+[issue]: https://github.com/microsoft/vscode/issues/108757/
