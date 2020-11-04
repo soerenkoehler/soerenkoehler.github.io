@@ -11,5 +11,7 @@ but no working solutions. In case of WSL2 the problem is with networking:
 Hyper-V creates a default virtual switch which promises to do NAT and the stuff
 to allow containers to connect to the internet. On the other hand, WSL2 seems to
 set up its own virtual switch. If you try to connect it to a physical network,
-you reach the land of unexplicable errors... And without the likes of `apt
-update` working, the Linux subsystem is more than useless.
+you reach the land of unexplicable errors...
+
+And without the likes of `apt update` working, the Linux subsystem is more than
+useless.
