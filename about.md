@@ -21,5 +21,4 @@ else. Maybe someone will find something of this useful.
 # ![Contact](/assets/img/letter.png) Contact
 Email: [webmaster@soerenkoehler.de](mailto:webmaster@soerenkoehler.de)  
 Threema: [WJJBHK3U](threema://add?id=WJJBHK3U)  
-Mastodon: <a target="_blank" href="https://mastodon.social/@soerenkoehler">@soerenkoehler@mastodon.social</a>  
 PGP-Key: [5620 3CCF 3406 522A 57A5  3A3D F1EE 4733 52C8 72D5](pgp-key.html)
