@@ -15,7 +15,7 @@ Immediately outcries and conspiracy theories arose in the forum:
 *   Google/NSA/Freemasons/Reptiloids threatened to kill his cat to get him stop
     developing such software overthrowing the advertisers' secret world
     government. (Answer: This is rubbish, if T.H.E.Y. wan't to stop Ad Blockers,
-    [they simply change APIs](2019/06/02/another-nail-in-the-coffin.md).)
+    [they simply change APIs](/2019/06/02/another-nail-in-the-coffin.html).)
 
 In my opinion, Raymond "Gorhill" Hill's reason to stop the project is much more
 mundane: available time. Gorhill is the developer of two addons:
@@ -43,7 +43,7 @@ Additional considerations:
 
 *   µMatrix development for Chromium based browsers is much more difficult now
     as [Google killed the old Webrequest
-    API](2019/06/02/another-nail-in-the-coffin.md).
+    API](/2019/06/02/another-nail-in-the-coffin.html).
 *   Mozilla flags only µBlock Origin as recommended addon (see above).
 *   The mobile version of FF 80 has only a handful of compatible addons, among
     them is µBlock but not µMatrix.

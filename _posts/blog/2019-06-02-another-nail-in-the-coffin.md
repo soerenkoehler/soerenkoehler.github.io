@@ -7,7 +7,7 @@ tags: [english, blog, internet, privacy, firefox, google]
     https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
 ){:target="_blank"}.
 
-[We saw it coming](2019/01/23/chrome-vs-adblockers.html).
+[We saw it coming](/2019/01/23/chrome-vs-adblockers.html).
 
 We wanted to believe (that they were not evil).
 

@@ -5,7 +5,7 @@ tags: [english, dev, vscode]
 ---
 Removing a folder from a multi-root workspace does not remove the associated git
 repo from SCM view. I've reported this already as an [issue in the VSCode
-project][issue]:
+project][issue]{:target="_blank"}:
 
 #### Steps to Reproduce ####
 
@@ -27,9 +27,9 @@ As a workaround you can search and delete the workspace settings under
 
 #### Update 2020-11-04 ####
 
-There was some [analysis on the topic](analysis) on Github. Obviously, it is
-connected to having files from folder_B still open in an editor. Closing those
-should solve the problem without the above workaround. 
+There was some [analysis on the topic][analysis]{:target="_blank"} on Github.
+Obviously, it is connected to having files from folder_B still open in an
+editor. Closing those should solve the problem without the above workaround. 
 
 [issue]:    https://github.com/microsoft/vscode/issues/108757/
 [analysis]: https://github.com/microsoft/vscode/issues/108757/#issuecomment-713690131

@@ -7,7 +7,7 @@ Some days ago I realised, that once again you can
 [download Docker](
     https://www.docker.com/get-started
 ){:target="_blank"}
-without [having to login](2019/10/27/not-downloading-docker.html). I guess this is due to some changes
+without [having to login](/2019/10/27/not-downloading-docker.html). I guess this is due to some changes
 in the company,
 [announced at the end of 2019](
     https://www.heise.de/newsticker/meldung/Docker-verkauft-Enterprise-Geschaeft-und-bekommt-neuen-CEO-4585658.html
