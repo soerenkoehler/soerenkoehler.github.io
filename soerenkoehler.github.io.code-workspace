@@ -6,7 +6,8 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"_site": true
+			"_site": true,
+			".jekyll*": true
 		}
 	}
 }
