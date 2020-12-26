@@ -1,6 +1,7 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-feed
 
 title: Code, the Universe and Everything
 description: A blog about code, the universe and everything.
