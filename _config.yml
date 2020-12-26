@@ -8,4 +8,4 @@ description: A blog about code, the universe and everything.
 author: Sören Köhler
 
 feed:
-  post-limit: 50
+  posts_limit: 50
