@@ -18,8 +18,8 @@ signed server certificate using OpenSSL. I was not in the mood for this.
 ### The Shorter Way - With Obstacles
 
 Then I remembered, that I already had a CA set up - the one signing the
-certificate for my Synology NAS. And may memory said, it was fully created in
-the NAS Dashboard. Could I create a certificate for my Fritzbox using the NAS?
+certificate for my Synology NAS. And my memory said, it was fully created in the
+NAS Dashboard. Could I create a certificate for my Fritzbox using the NAS?
 
 Well, yes. Caveat: If you go to the certificates page of the security applet and
 simply select "Add" it will create another certificate including CA for the
