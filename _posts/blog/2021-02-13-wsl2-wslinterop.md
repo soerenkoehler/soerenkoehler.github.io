@@ -4,7 +4,7 @@ title: "Strange Tales of WSL: WSLInterop Suddenly Broken"
 tags: [english, blog, windows, linux]
 ---
 In the last days Git started to behave strangely in WSL. It will now always ask
-for credentials. Since I usually use GIT from within VSCode and VSCode's
+for credentials. Since I usually use Git from within VSCode and VSCode's
 WSL-Plugin does some magic in the background it still works fine in VSCode. But
 in a standalone shell I get asked for user and password. A workaround is setting
 `credential.helper=store` or such. It will then even reuse the credentials of
