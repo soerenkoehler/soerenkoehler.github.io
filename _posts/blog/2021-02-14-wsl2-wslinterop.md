@@ -20,4 +20,8 @@ A lengthy internet search gave nothing but general hints about WSLInterop and no
 hints about the phenomenon I observe. I'll reasses the situation after
 installing Win10 20H2.
 
+**Update 2021-02-14**: When cross-checking against the work laptop I realized,
+that interop was disabled altogether in `/etc/wsl.conf`. Still don't know when
+this may have happened...
+
 [interop]: https://docs.microsoft.com/en-us/windows/wsl/interop#run-windows-tools-from-linux
