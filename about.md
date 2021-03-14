@@ -11,6 +11,7 @@ else. Maybe someone will find something of this useful.
 **PGP-Key**   [5620 3CCF 3406 522A 57A5  3A3D F1EE 4733 52C8 72D5](pgp-key.html)  
 **Email**     [webmaster@soerenkoehler.de](mailto:webmaster@soerenkoehler.de)  
 **Threema**   [WJJBHK3U](https://threema.id/WJJBHK3U)  
-**Mastodon**  [@soerenkoehler@mastodon.social](https://mastodon.social/@soerenkoehler)  
+**Telegram**  [@soerenkoehler](https://t.me/soerenkoehler)  
 **Twitter**   [@\_welt_schmerz\_](https://twitter.com/_welt_schmerz_)  
+**Mastodon**  [@soerenkoehler@mastodon.social](https://mastodon.social/@soerenkoehler)  
 **Postal Address, Phone Number, Signal, WhatsApp, Facebook-ID** _on personal request only_
