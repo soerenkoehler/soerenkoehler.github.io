@@ -12,9 +12,9 @@ the VSCode plugin.
 
 Further investigation revealed, that it was not Git that is broken but the
 WSLInterop feature. Normally you should be able to run Windows executables
-directly from WSL, as detailed [here][interop]. But no longer in my WSL
-installation. Calling a Windows binary returns without any effect (and without
-errors).
+directly from WSL, as detailed [here][interop]{:target="_blank"}. But no longer
+in my WSL installation. Calling a Windows binary returns without any effect (and
+without errors).
 
 A lengthy internet search gave nothing but general hints about WSLInterop and no
 hints about the phenomenon I observe. I'll reasses the situation after
