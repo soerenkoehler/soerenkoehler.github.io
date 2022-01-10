@@ -1,6 +1,3 @@
----
-banner: banner.txt
----
 <!DOCTYPE html>
 <html lang='{{ site.lang | default: "en-US" }}'>
 
@@ -8,13 +5,16 @@ banner: banner.txt
     <meta charset='utf-8'>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="expires" content="-1">
+    <meta name="referrer" content="no-referrer">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="me" href="https://mastodon.social/@soerenkoehler">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="/assets/img/eye.png" type="image/png">
     <link rel="alternate" type="application/rss+xml" title="Code, the Universe and Everything" href="http://soerenkoehler.de/feed.xml" />
-  {% seo %}
+    {% seo %}
 </head>
 
 <body>
