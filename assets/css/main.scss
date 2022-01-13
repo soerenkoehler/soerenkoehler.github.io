@@ -4,6 +4,7 @@ $background: #151515;
 $background-quote-level1: #303030;
 $background-quote-level2: #454545;
 $color-text: #d0d0d0;
+$color-code: #e8b553;
 $color-accent: #b5e853;
 $color-highlight: #ffffff;
 $color-tagcloud: #000000;
@@ -19,6 +20,7 @@ body {
 
 code {
     font-family: 'Cascadia Code', 'Lucida Console', 'Dejavu Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback';
+    color: $color-code;
 }
 
 a, a:active, a:visited {

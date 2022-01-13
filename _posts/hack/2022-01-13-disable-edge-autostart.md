@@ -12,17 +12,16 @@ After almost a day of internet search and many futile attempts to solve the
 problem I finally found a working solution. Well, you always find the solution
 at the end of your journey, don't you?
 
-Here it is. Set the value `AutoRunOnLogon=0` on the registry key
-```
-HKLM\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch
-```
-See KOH_089's answer in [this thread][solution].
+On the registry key
+
+`HKLM\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch`
+
+set the value `AutoRunOnLogon=0`. (See also KOH_089's answer in [this thread][solution].)
 
 You may also consider analog modification of the neighbouring keys:
-```
-...\Commands\on-logon-startup-boost
-...\Commands\on-os-upgrade
-```
+
+`...\Commands\on-logon-startup-boost`  
+`...\Commands\on-os-upgrade`
 
 (*) Further speculations:
 *   One commenter proposed to simply rename the Edge-executable. When I did
