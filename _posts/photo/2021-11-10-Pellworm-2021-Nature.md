@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pellworm 2021 Nature
+title: Pellworm 2021 - Nature
 tags: [english, photo, pellworm, north sea]
 ---
 [view album on Google Photos  

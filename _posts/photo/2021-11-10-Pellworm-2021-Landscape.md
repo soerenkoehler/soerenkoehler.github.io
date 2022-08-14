@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pellworm 2021 Landscape
+title: Pellworm 2021 - Landscape
 tags: [english, photo, pellworm, north sea]
 ---
 [view album on Google Photos  

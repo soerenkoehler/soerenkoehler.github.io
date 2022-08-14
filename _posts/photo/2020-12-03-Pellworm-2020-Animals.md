@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pellworm 2020 Animals
+title: Pellworm 2020 - Animals
 tags: [english, photo, pellworm, north sea]
 ---
 [view album on Google Photos  

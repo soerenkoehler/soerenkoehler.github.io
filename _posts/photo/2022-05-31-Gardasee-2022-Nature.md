@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lake Garda 2022 Nature
+title: Lake Garda 2022 - Nature
 tags: [english, photo, lake garda]
 ---
 [view album on Google Photos  
