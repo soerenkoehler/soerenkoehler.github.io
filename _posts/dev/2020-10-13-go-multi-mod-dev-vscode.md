@@ -29,11 +29,15 @@ After some trial and error, I nailed it down to:
 * reloading workspace A updates the dependency B
 
 So, the solution is: Have both modules in the same workspace. VSCode will then
-happily detect chenged dependency sources.
+happily detect changed dependency sources.
 
-### Summary
+#### Summary
 
-Two develop a dependency locally:
+To develop a dependency locally:
 * Use a temporary local `go.mod` file with a `replace` directive pointing to
   your local dependency.
 * Temporarily add the dependency to your workspace.
+
+#### Update 2022-10-01
+
+Maybe no longer necessary => to be reevaluated.
