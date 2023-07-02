@@ -8,10 +8,11 @@ else. Maybe someone will find something of this useful.
 
 ----
 
-**PGP-Key**   [5620 3CCF 3406 522A 57A5  3A3D F1EE 4733 52C8 72D5](pgp-key.html)  
 **Email**     [webmaster@soerenkoehler.de](mailto:webmaster@soerenkoehler.de)  
+**Mastodon**  [@soerenkoehler@mastodon.social](https://mastodon.social/@soerenkoehler)  
+**Twitter**   [@\_welt_schmerz\_](https://twitter.com/_welt_schmerz_)  
+**Facebook**  [soeren.dermuffin.koehler](https://www.facebook.com/soeren.dermuffin.koehler/)  
+**Instagram** [dermuffin](https://www.instagram.com/dermuffin/)
 **Threema**   [WJJBHK3U](https://threema.id/WJJBHK3U)  
 **Telegram**  [@soerenkoehler](https://t.me/soerenkoehler)  
-**Twitter**   [@\_welt_schmerz\_](https://twitter.com/_welt_schmerz_)  
-**Mastodon**  [@soerenkoehler@mastodon.social](https://mastodon.social/@soerenkoehler)  
-**Postal Address, Phone Number, Signal, WhatsApp, Facebook-ID** _on personal request only_
+**Postal Address, Phone Number, Signal, WhatsApp** _on personal request only_
