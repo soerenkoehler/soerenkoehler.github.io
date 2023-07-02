@@ -7,7 +7,7 @@ write down some thoughts (or rants) about life, the universe and everything
 else. Maybe someone will find something of this useful.
 
 ----
-
+<!---
 **Email**     [webmaster@soerenkoehler.de](mailto:webmaster@soerenkoehler.de)  
 **Mastodon**  [@soerenkoehler@mastodon.social](https://mastodon.social/@soerenkoehler)  
 **Twitter**   [@\_welt_schmerz\_](https://twitter.com/_welt_schmerz_)  
@@ -15,4 +15,7 @@ else. Maybe someone will find something of this useful.
 **Instagram** [dermuffin](https://www.instagram.com/dermuffin/)  
 **Threema**   [WJJBHK3U](https://threema.id/WJJBHK3U)  
 **Telegram**  [@soerenkoehler](https://t.me/soerenkoehler)  
+-->
+**Contacts etc.** on [Linktree](https://linktr.ee/soerenkoehler)
+
 **Postal Address, Phone Number, Signal, WhatsApp** _on personal request only_
