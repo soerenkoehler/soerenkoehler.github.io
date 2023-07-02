@@ -12,7 +12,7 @@ else. Maybe someone will find something of this useful.
 **Mastodon**  [@soerenkoehler@mastodon.social](https://mastodon.social/@soerenkoehler)  
 **Twitter**   [@\_welt_schmerz\_](https://twitter.com/_welt_schmerz_)  
 **Facebook**  [soeren.dermuffin.koehler](https://www.facebook.com/soeren.dermuffin.koehler/)  
-**Instagram** [dermuffin](https://www.instagram.com/dermuffin/)
+**Instagram** [dermuffin](https://www.instagram.com/dermuffin/)  
 **Threema**   [WJJBHK3U](https://threema.id/WJJBHK3U)  
 **Telegram**  [@soerenkoehler](https://t.me/soerenkoehler)  
 **Postal Address, Phone Number, Signal, WhatsApp** _on personal request only_
