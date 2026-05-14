@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WSL2 Network Problems
+title: "WSL2 Network Problems"
 tags: [english, blog, windows, linux]
 ---
 After a long delay Win10 v2004 was released to the masses. It brought WSL2 and I

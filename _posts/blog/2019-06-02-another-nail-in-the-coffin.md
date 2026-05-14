@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Nail in the Chrome...
+title: "Another Nail in the Chrome..."
 tags: [english, blog, internet, privacy, firefox, google]
 ---
 [T.H.E.Y. did announce it](

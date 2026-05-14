@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WSL vs Git-Bash vs Docker vs Hyper-V vs VirtualBox
+title: "WSL vs Git-Bash vs Docker vs Hyper-V vs VirtualBox"
 tags: [english, blog, windows, linux]
 ---
 ### The Challenge

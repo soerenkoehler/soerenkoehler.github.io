@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R.I.P. µMatrix
+title: "R.I.P. µMatrix"
 tags: [english, blog, internet, privacy, firefox]
 ---
 Today heise.de reported that the µMatrix repository on Github

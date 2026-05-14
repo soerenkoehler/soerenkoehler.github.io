@@ -1,6 +1,6 @@
 ---
 layout: post
-title: That's why... (Operation ShadowHammer)
+title: "That's why... (Operation ShadowHammer)"
 tags: [english, blog, security]
 ---
 For some days the tech media are full of reports regarding "Operation

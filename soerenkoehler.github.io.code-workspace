@@ -1,13 +1,15 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"files.exclude": {
-			"_site": true,
-			".jekyll*": true
-		}
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "_site": true,
+            ".jekyll*": true
+        },
+        "telemetry.editStats.enabled": false,
+        "telemetry.feedback.enabled": false,
+    }
 }

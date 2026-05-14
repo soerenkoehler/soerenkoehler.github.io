@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Not) Downloading Docker Desktop...
+title: "(Not) Downloading Docker Desktop..."
 tags: [english, blog, windows, docker]
 ---
 Today I had some spare time and remembered that I wanted to check on Docker for
