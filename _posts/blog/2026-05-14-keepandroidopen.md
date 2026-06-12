@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Another brick in the wall(ed garden)"
-tags: [english, blog, google, android, consumer rights]
+tags: [english, blog, google, android, consumer rights, privacy]
 ---
 Yes, the topic of Google blocking every apps from unregistered developers is
 already in the world for some days and I was simply ignoring it. Truth said: I'm
