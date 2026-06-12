@@ -14,7 +14,7 @@ canceled.
 
 >   Catch-22 side note: When I tried to remove my Google dev account myself, I
 >   was stopped, because somewhere exists a single copy of my only app. Probably
->   on one of the old phones rotting in some chest on the attic. Since then I
+>   on one of the old phones rotting in some box on the attic. Since then I
 >   ignore every requirement from Google until they close my account. 🤷‍♀️
 
 So, when the topic first arose, I shrugged and put it on the stack with all the
